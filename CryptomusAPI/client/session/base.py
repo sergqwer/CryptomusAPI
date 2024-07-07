@@ -46,11 +46,7 @@ class BaseSession(ABC):
             raise CryptomusError(f"Error while parsing json: {e}")
 
         if status_code == 200:
-            try:
-                obj = method.build_response(json_data)
-            except LoadError as e:
-                raise CryptomusError(f"Error while building response: {e}")
-            return obj
+            return json_data
 
         raise CryptomusError(f"Error while request [{status_code}]: {json_data}")
     
