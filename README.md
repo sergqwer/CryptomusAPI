@@ -77,13 +77,13 @@ $ pip install CryptomusAPI
 ```
 - Install from GitHub *(requires [git](https://git-scm.com/downloads))*
 ```bash
-$ git clone https://github.com/Fsoky/CryptomusAPI
+$ git clone https://github.com/sergqwer/CryptomusAPI
 $ cd CryptomusAPI
 $ python setup.py install
 ```
 - Or
 ```bash
-$ pip install git+https://github.com/Fsoky/CryptomusAPI
+$ pip install git+https://github.com/sergqwer/CryptomusAPI
 ```
 
 <h1 align="center">Get Started</h1>
